@@ -1,8 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79D82AFE-357B-4FF2-90B3-AD4E2BE1943A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "src\Shared\Shared.csproj", "{71249F8C-3C00-41B0-B914-E7684FA80B75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71249F8C-3C00-41B0-B914-E7684FA80B75} = {79D82AFE-357B-4FF2-90B3-AD4E2BE1943A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71249F8C-3C00-41B0-B914-E7684FA80B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71249F8C-3C00-41B0-B914-E7684FA80B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71249F8C-3C00-41B0-B914-E7684FA80B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71249F8C-3C00-41B0-B914-E7684FA80B75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
